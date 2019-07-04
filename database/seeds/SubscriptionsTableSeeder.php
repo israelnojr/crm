@@ -13,11 +13,6 @@ class SubscriptionsTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
-        DB::table('subscriptions')->delete();
-        
-        
-        
+        DB::table('subscriptions')->delete();  
     }
 }
